@@ -7,3 +7,7 @@
 1. Seaborn and Matplotlib were employed for visualizing the data.
 2. A histogram was generated which provided insights into the distribution of each numerical feature in the dataset. This helped in identifying the distribution patterns, potential skewness, and presence of outliers in the data.
 3. A count plot of the target variable was created.This visualization allowed us to observe the distribution of the target variable, helping to assess whether the dataset was balanced or imbalanced.
+## Data Transformation:
+1 I used the select_dtypes() method from Pandas to identify categorical columns in the dataset. This method filtered the columns based on their data type, specifically looking for those with an object data type, which typically represents categorical data.
+2. I cheked regarding the presence of categorical variables obj. There is no 'obj' data type variables in the dataset. So, there is no need of doing One-Hot Encoding.
+
